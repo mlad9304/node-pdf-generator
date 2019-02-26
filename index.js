@@ -6,8 +6,8 @@ const app = new Koa();
 
 app.use(bodyParser());
 
-const pdf = require('./pdf');
-router.use('/', pdf);
+const sample = require('./sample');
+router.use('/', sample);
 app.use(router.routes());
 
 app.listen(process.env.PORT || 3000);

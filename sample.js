@@ -1,7 +1,7 @@
 const router = require('koa-router')();
 const pdf = require('html-pdf');
 
-const template = require('./templates');
+const template = require('./templates/sample');
 
 const pdfOptions = {
   "border": {

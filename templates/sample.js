@@ -2,7 +2,7 @@ const fs = require('fs');
 const dot = require('dot');
 
 function replaceInTemplate() {
-  const template = fs.readFileSync(`${__dirname}/../templates/pdf.html`, 'utf8');
+  const template = fs.readFileSync(`${__dirname}/sample.html`, 'utf8');
   const templateFunc = dot.template(template);
 
   const itemData = processData();
