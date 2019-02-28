@@ -18,10 +18,8 @@
   },
   "homepage": "https://github.com/rndev80/node-pdf-generator#readme",
   "dependencies": {
-    "dot": "^1.1.2",
-    "html-pdf": "^2.2.0",
     "koa": "^2.7.0",
-    "koa-bodyparser": "^4.2.1",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "pdfmake": "^0.1.53"
   }
 }
